@@ -1,0 +1,254 @@
+
+/** {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+/*.img {*/
+/*    !*width: 100%;*!*/
+/*    width: 285px;*/
+/*    height: 285px;*/
+/*    float: left;*/
+/*    z-index: -2;*/
+/*    position: absolute;*/
+/*    !*left: 0;*!*/
+/*    !*opacity: 0;*!*/
+/*}*/
+
+/*#head {*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    position: absolute;*/
+/*    !*z-index: -1;*!*/
+/*}*/
+
+/*#box {*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    position: absolute;*/
+/*    z-index: -1;*/
+/*}*/
+
+/*#background1 {*/
+/*    width: 100%;*/
+/*    height: inherit;*/
+/*    margin: 0 auto;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    background-size: cover;*/
+/*    background: no-repeat 50%;*/
+/*}*/
+
+/*#background1 img {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    position: fixed;*/
+
+/*}*/
+
+/*#title {*/
+/*    margin: 0 auto;*/
+/*    text-align: center;*/
+/*    padding: 10px;*/
+/*}*/
+
+/*#title img {*/
+/*    width: 40px;*/
+/*    height: 40px;*/
+/*}*/
+
+/*#userimg {*/
+/*    float: right;*/
+/*    margin: 0px 5px;*/
+/*}*/
+
+/*#website {*/
+/*    float: right;*/
+/*    margin-right: 30px;*/
+/*    margin-top: 8px;*/
+/*}*/
+
+/*#website a {*/
+/*    text-decoration: none;*/
+/*    color: white;*/
+/*    font-size: 15px;*/
+/*}*/
+
+/*#Function {*/
+/*    width: 250px;*/
+/*    height: 600px;*/
+/*    border: 5px #05B2ED solid;*/
+/*    padding: 20px;*/
+/*    !* overflow: hidden;*/
+/*    float: left; *!*/
+/*}*/
+
+/*#meau {*/
+/*    border: 1px solid #2be1f1;*/
+/*    width: 200px;*/
+/*    height: 30px;*/
+/*    text-align: center;*/
+/*    border-radius: 10px;*/
+/*    margin: auto;*/
+/*    padding: 2px 5px;*/
+/*    float: left;*/
+/*}*/
+
+/*.arrowsup {*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    position: absolute;*/
+/*    top: 80px;*/
+/*    left: 255px;*/
+/*    display: none;*/
+/*}*/
+
+/*.arrowsdown {*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    top: 80px;*/
+/*    left: 255px;*/
+/*}*/
+
+/*#Function img {*/
+/*    width: 30px;*/
+/*    height: 30px;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*#Function span {*/
+/*    color: #fff;*/
+/*    font-size: 20px;*/
+/*}*/
+
+/*.function {*/
+/*    border: 1px solid #2be1f1;*/
+/*    width: 150px;*/
+/*    height: 30px;*/
+/*    text-align: center;*/
+/*    padding: 2px 5px;*/
+/*    margin: 90px auto;*/
+/*    display: block;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.function span {*/
+/*    color: #2be1f1;*/
+
+/*}*/
+
+/*#content {*/
+/*    border: 1px red solid;*/
+/*    width: calc(100% - 600px);*/
+/*    margin: auto;*/
+/*    height: 400px;*/
+/*    position: absolute;*/
+/*    !*float: left;*!*/
+/*    left: 318px;*/
+/*    top: calc(50vh - 200px);*/
+/*}*/
+
+/*#content button {*/
+/*    width: 150px;*/
+/*    height: 40px;*/
+/*    outline: none;*/
+/*    background-color: #05B2ED;*/
+/*    float: left;*/
+/*    left: 0;*/
+/*    !*border-radius: 10px;*!*/
+/*}*/
+
+/*.image {*/
+/*    border: 1px blue solid;*/
+/*    width: 32%;*/
+/*    height: 320px;*/
+/*    margin: 45px 0 45px 0.8%;*/
+/*    float: left;*/
+/*    !*z-index: 1;*!*/
+/*    position: relative;*/
+/*}*/
+
+/*.label {*/
+/*    border: 1px red solid;*/
+/*    width: 100%;*/
+/*    height: 30px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.label span {*/
+/*    font-size: 20px;*/
+/*    color: white;*/
+/*}*/
+
+/*#pic1, #pic2, #pic3 {*/
+/*    height: 300px;*/
+/*    width: 100%;*/
+/*    position: relative;*/
+/*    float: left;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.image img {*/
+/*    height: 285px;*/
+/*    width: 100%;*/
+/*    !*float: left;*!*/
+/*}*/
+
+/*.image .img {*/
+/*    height: 285px;*/
+/*    width: 285px;*/
+/*    !*float: left;*!*/
+/*}*/
+
+/*.image input {*/
+/*    position: absolute;*/
+/*    height: 300px;*/
+/*    width: 100%;*/
+/*    border: 1px solid red;*/
+/*    !*设置opactity为0，使input变透明*!*/
+/*    opacity: 0;*/
+/*}*/
+
+/*#tishi {*/
+/*    width: 250px;*/
+/*    height: 600px;*/
+/*    margin: auto;*/
+/*    position: absolute;*/
+/*    border: 2px #2be1f1 solid;*/
+/*    !* padding: 20px; *!*/
+/*    !* float: right;*/
+/*    overflow: hidden; *!*/
+/*    top: 56.8px;*/
+/*    right: 10px;*/
+/*}*/
+
+/*#foot {*/
+/*    position: relative;*/
+/*    !*border: red 1px solid;*!*/
+/*}*/
+
+/*.upload {*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    position: absolute;*/
+/*    right: 30px;*/
+/*    bottom: -30px;*/
+/*}*/
+
+/*#foot input {*/
+/*    position: absolute;*/
+/*    height: 60px;*/
+/*    width: 60px;*/
+/*    right: 30px;*/
+/*    bottom: -30px;*/
+/*    !*设置opactity为0，使input变透明*!*/
+/*    opacity: 0;*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.upload img {*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*}*/

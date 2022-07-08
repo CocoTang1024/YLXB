@@ -1,0 +1,12 @@
+Flask-Migrate =2.5.3
+Flask-SQLAlchemy=2.4.1
+Flask = 1.1.4
+PyMySQL = 1.0.2
+SQLAlchemy = 1.3.17
+
+
+找到settings.py看第四行注释，提前在数据库建一个database
+打开终端进到对应目录下
+执行python app.py db init 会生成migrations文件夹
+执行python app.py db migrate
+执行python app.py db upgrade
