@@ -29,7 +29,7 @@
       服务端：指后端程序；<br>
       客户：指本产品的使用者，一般为企业管理人员或安全部门等，本文档中的用户与客户概念相同；<br>
       Web界面：指在Vue框架下完成的UI界面。<br><br>
-      Github: <a href="https://github.com/Tym-best/YLXB">https://github.com/Tym-best/YLXB</a>
+      Github: <a href="https://github.com/Tym-best/YLXB" style="text-decoration: none">https://github.com/Tym-best/YLXB</a>
         <br><br>联系QQ：236402343
       </span>
         <span slot="footer" class="dialog-footer">
