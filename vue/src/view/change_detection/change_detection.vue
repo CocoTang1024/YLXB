@@ -160,20 +160,20 @@ export default {
       }
       //将二进制字符串转为base64字符串
       return window.btoa(binary);
-    },//vue接受flask图片的转码函数
+    },
     target() {
       let that = this;
       $('.el-progress').css('opacity', '1')
       setInterval(() => {
         if (that.percentage !== 100) {
-          that.percentage = that.percentage + 6.25
+          that.percentage = that.percentage + 5
         }
       }, 1000)
       axios({
         method: "get",
         url: "http://localhost:5000/change_detection",
-        responseType: "arraybuffer", // 最为关键
-        params: {"chose": '1'}//我设置的1是目标检测，234分别剩下三个
+        responseType: "arraybuffer",
+        params: {"chose": '1'}//设置1代表目标检测
       }).then(function (response) {
         if ($('.tip').css('opacity') === 1) {
           $('.tip').css('opacity', '0')

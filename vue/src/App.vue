@@ -10,7 +10,7 @@ export default {
 };
 </script>
 <style>
-
+@import "./assets/css/normalize.css";
 * {
   margin: 0;
   padding: 0;

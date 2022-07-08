@@ -95,10 +95,9 @@ export default {
       }
       const res = await axios.post("http://127.0.0.1:5000/pic_3", form);
       console.log("res1=", res);
-      this.imageUrl = res.data;//这里解决了一个跨域问题
+      this.imageUrl = res.data;
     },
     turnToBase64(buffer) {
-      //第一步，将ArrayBuffer转为二进制字符串
       let binary = "";
       let bytes = new Uint8Array(buffer);
       let len = bytes.byteLength;
@@ -107,8 +106,8 @@ export default {
       }
       //将二进制字符串转为base64字符串
       return window.btoa(binary);
-    },//vue接受flask图片的转码函数
-    target() { //已实现，无报错，目标识别功能
+    },
+    target() {
       let that = this;
       $('.el-progress').css('opacity', '1')
       setInterval(() => {

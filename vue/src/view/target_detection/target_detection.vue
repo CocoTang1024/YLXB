@@ -119,7 +119,8 @@ export default {
       }
       const res = await axios.post("http://127.0.0.1:5000/pic_3", form);
       console.log("res1=", res);
-      this.imageUrl = res.data;//这里解决了一个跨域问题
+      //这里解决了一个跨域问题
+      this.imageUrl = res.data;
     },
     turnToBase64(buffer) {
       //第一步，将ArrayBuffer转为二进制字符串

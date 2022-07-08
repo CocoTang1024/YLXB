@@ -12,7 +12,7 @@
         <div id="username">
           <div class="user">
             <div class="user_img"><img src="@/assets/Images/user1.png" alt=""></div>
-            <input type="text" placeholder="用户名" name="username" ref="username" v-model="loginForm.username"></div>
+            <div style="border-radius: 0 10px 10px 0;"><input type="text" placeholder="用户名" name="username" ref="username" v-model="loginForm.username"></div></div>
         </div>
         <div id="password">
           <div class="user">
